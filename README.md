@@ -1,10 +1,7 @@
 # JOGO DE ETIQUETA
 👨‍💻ESSE É PEQUENO JOGO QUE RODA NO CONSOLE DA IDE.
 
-[![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA)
-[![GitHub Repo stars](https://img.shields.io/badge/MEUS-CURSOS-03A9F4?logo=github)](https://github.com/VILHALVA?tab=repositories&q=CURSO&type=public&language=&sort=)
-
-<img src="FOTO.png" align="center" width="300"> <br>
+<img src="FOTO.png" align="center" width="500"> <br>
 
 ## DESCRIÇÃO:
 O aplicativo é um jogo de escolhas com uma narrativa interativa. As principais características são:
@@ -34,3 +31,31 @@ O aplicativo é um jogo de escolhas com uma narrativa interativa. As principais 
    - Adiciona um tempo de espera se o jogador ultrapassar um certo número de tentativas, antes de realizar a ação pós-jogo.
 
 O jogo visa explorar as escolhas éticas e morais do jogador, oferecendo uma experiência de tomada de decisões em um contexto ficcional.
+
+## COMO USAR?
+**Passo 1:** Clone o repositório para o seu sistema local.
+
+```bash
+git clone https://github.com/VILHALVA/JOGO-DE-ETIQUETA.git
+```
+
+**Passo 2:** Navegue até o diretório do projeto.
+
+```bash
+cd JOGO-DE-ETIQUETA
+```
+
+**Passo 3:** Descompacte o arquivo ZIP (se você baixou manualmente):
+
+```bash
+unzip JOGO-DE-ETIQUETA.zip
+```
+
+**Passo 4:** Execute o executável do projeto.
+
+```bash
+./JOGO-DE-ETIQUETA
+```
+
+## CREDITOS:
+- [PROJETO CRIADO PELO VILHALVA](https://github.com/VILHALVA)
