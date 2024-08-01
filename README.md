@@ -33,7 +33,10 @@ O aplicativo é um jogo de escolhas com uma narrativa interativa. As principais 
 O jogo visa explorar as escolhas éticas e morais do jogador, oferecendo uma experiência de tomada de decisões em um contexto ficcional.
 
 ## EXECUTANDO O JOGO:
-1. Execute o código em um ambiente Python.
+1. Navegue até o diretório `./CODIGO`, e execute o arquivo Python com o comando:
+```bash
+python CODIGO.py
+```
 2. O jogo apresentará uma situação hipotética e você precisará escolher entre quatro opções (A, B, C ou D) para lidar com essa situação.
 3. Leia atentamente a situação e escolha a opção que você acha ser a melhor.
 4. Digite a letra correspondente à sua escolha e pressione Enter.
