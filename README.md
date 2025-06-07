@@ -4,7 +4,7 @@
 <img src="FOTO.png" align="center" width="500"> <br>
 
 ## DESCRIÇÃO:
-O aplicativo é um jogo de escolhas com uma narrativa interativa. As principais características são:
+O aplicativo é um jogo de escolhas com uma narrativa interativa. O jogo visa explorar as escolhas éticas e morais do jogador, oferecendo uma experiência de tomada de decisões em um contexto ficcional. As principais características são:
 
 1. **História Interativa:**
    - Apresenta uma situação hipotética em que o jogador precisa fazer uma escolha difícil relacionada à vida de sua esposa e a oportunidade de emprego.
@@ -30,40 +30,47 @@ O aplicativo é um jogo de escolhas com uma narrativa interativa. As principais 
 8. **Tempo de Espera:**
    - Adiciona um tempo de espera se o jogador ultrapassar um certo número de tentativas, antes de realizar a ação pós-jogo.
 
-O jogo visa explorar as escolhas éticas e morais do jogador, oferecendo uma experiência de tomada de decisões em um contexto ficcional.
-
 ## EXECUTANDO O JOGO:
-1. Navegue até o diretório `./CODIGO`, e execute o arquivo Python com o comando:
-```bash
-python CODIGO.py
-```
-2. O jogo apresentará uma situação hipotética e você precisará escolher entre quatro opções (A, B, C ou D) para lidar com essa situação.
-3. Leia atentamente a situação e escolha a opção que você acha ser a melhor.
-4. Digite a letra correspondente à sua escolha e pressione Enter.
-5. Se sua escolha coincidir com a resposta aleatória do computador, você vence.
-6. Se sua escolha não coincidir, o jogo indicará que você perdeu e oferecerá algumas mensagens relacionadas à sua escolha.
-7. Dependendo do número de tentativas que você leva para vencer, o jogo dará um feedback final.
-8. Após o final do jogo, dependendo do seu desempenho, ele abrirá automaticamente o YouTube se você vencer com até 5 tentativas, ou abrirá a Wikipedia se você precisar de mais de 5 tentativas para vencer.
+1. Acesse o diretório `./CODIGO` e execute o arquivo Python com o seguinte comando:
+
+   ```bash
+   python CODIGO.py
+   ```
+
+2. O jogo apresentará uma situação hipotética, e você deverá escolher entre **quatro opções**: **A**, **B**, **C** ou **D**.
+
+3. Leia atentamente a situação e selecione a opção que você considera mais adequada.
+
+4. Digite a **letra correspondente** à sua escolha e pressione **Enter**.
+
+5. Se sua escolha **coincidir com a resposta aleatória** definida pelo computador, você vence.
+
+6. Caso contrário, o jogo informará que você perdeu e exibirá mensagens relacionadas à sua escolha.
+
+7. O jogo avaliará seu desempenho com base no **número de tentativas** até a vitória e exibirá um **feedback final**.
+
+8. Ao término da partida:
+
+   * Se você vencer **com até 5 tentativas**, o jogo abrirá o **YouTube** automaticamente.
+   * Se precisar de **mais de 5 tentativas**, o jogo abrirá a **Wikipedia**.
 
 ## SOBRE O EXECUTAVEL:
 ### 1. EXECUTANDO:
-   * O executável gerado está disponível apenas para sistemas **Windows x64** e pode ser encontrado no diretório:
-   ```
-   ./APP
-   ```
-
+   * O executável gerado está disponível apenas para sistemas **Windows x64** e pode ser encontrado no diretório `./APP`. Para executá-lo, basta dar dois cliques. O executável é bastante útil caso o Python não esteja instalado. Trata-se da mesma aplicação do arquivo `./CODIGO/CODIGO.py`. Se desejar, você pode recompilá-lo novamente.
    * Para executá-lo, basta dar dois cliques. Ele é especialmente útil em máquinas onde o **Python não está instalado**.
    * Trata-se da **mesma aplicação contida no arquivo `./CODIGO/CODIGO.py`**, porém empacotada de forma independente.
    * Se necessário, você pode recompilar o executável a qualquer momento.
 
 ### 2. GERANDO:
+> **IMPORTANTE:** Antes de gerar o novo `executável`, certifique-se de excluir o arquivo `./APP/JOGO DE ETIQUETA.exe`.
+
    **1. Instalação do [PyInstaller:](https://pyinstaller.org/en/stable/)**
    - Certifique-se de ter o PyInstaller instalado. Se não tiver, instale usando o comando abaixo:
    ```bash
    pip install pyinstaller
    ```
 
-   **2. Gerando o Executável**
+   **2. Gerando o Executável:**
    - No diretório `./CODIGO`, execute o comando abaixo para gerar o executável a partir do arquivo `.spec`:
 
    ```bash
